@@ -9,7 +9,8 @@ Object.defineProperty(exports, '__esModule', {
 });
 exports.configure = configure;
 
-function configure(config) {
-    config.aurelia.use.globalResources('./ace-editor');
+var _aceEditor = require('./ace-editor');
+
+function configure(aurelia, callback) {
+    aurelia.globalResources('./ace-editor');
 }
-//# sourceMappingURL=index.js.map
