@@ -1,5 +1,4 @@
 define(['exports', './ace-editor'], function (exports, _aceEditor) {
-
     'use strict';
 
     Object.defineProperty(exports, '__esModule', {
