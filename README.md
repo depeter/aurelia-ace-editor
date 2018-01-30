@@ -1,3 +1,6 @@
+##Important note
+This is an experimental clone from https://github.com/abalmus/aurelia-ace-editor. Don't use this repo.
+
 # aurelia-ace-editor
 
 The `aurelia-ace-editor` is a custom element for Aurelia application. Which allows you easily embed an `ace` editor to your application.
