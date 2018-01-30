@@ -1,4 +1,4 @@
-##Important note
+# Important note
 This is an experimental clone from https://github.com/abalmus/aurelia-ace-editor. Don't use this repo.
 
 # aurelia-ace-editor
