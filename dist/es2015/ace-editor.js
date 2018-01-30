@@ -57,7 +57,7 @@ export let AceEditor = (_dec = customElement('ace'), _dec2 = processContent(fals
 
         _initDefineProp(this, 'editor', _descriptor3, this);
 
-        this.id = `ace-editor-${ Math.floor((1 + Math.random()) * 0x10000) }`;
+        this.id = `ace-editor-${Math.floor((1 + Math.random()) * 0x10000)}`;
 
         this.element = element;
         this.propConverter = propConverter;

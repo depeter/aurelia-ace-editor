@@ -1,6 +1,8 @@
 'use strict';
 
 System.register(['aurelia-framework', 'ace', './dedent', './prop-converter'], function (_export, _context) {
+    "use strict";
+
     var inject, bindable, noView, customElement, processContent, Loader, ace, dedent, PropConverter, _dec, _dec2, _dec3, _class, _desc, _value, _class2, _descriptor, _descriptor2, _descriptor3, AceEditor;
 
     function _initDefineProp(target, property, descriptor, context) {

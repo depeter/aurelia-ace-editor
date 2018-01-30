@@ -1,6 +1,8 @@
 'use strict';
 
 System.register([], function (_export, _context) {
+    "use strict";
+
     function dedent(strings) {
         var raw = void 0;
 
@@ -14,7 +16,7 @@ System.register([], function (_export, _context) {
         for (var i = 0; i < raw.length; i++) {
             result += raw[i].replace(/\\\n[ \t]*/g, '').replace(/\\`/g, '`');
 
-            if (i < arguments.length - 1) {
+            if (i < (arguments.length <= 1 ? 0 : arguments.length - 1)) {
                 result += arguments.length <= i + 1 ? undefined : arguments[i + 1];
             }
         }
