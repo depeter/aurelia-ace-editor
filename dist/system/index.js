@@ -5,8 +5,10 @@
 System.register([], function (_export, _context) {
     "use strict";
 
-    function configure(config) {
-        config.aurelia.use.globalResources('./ace-editor');
+    var _aceEditor;
+
+    function configure(aurelia, callback) {
+        aurelia.globalResources('./ace-editor');
     }
     return {
         setters: [],
@@ -15,6 +17,8 @@ System.register([], function (_export, _context) {
                 value: true
             });
             exports.configure = configure;
+
+            _aceEditor = require('./ace-editor');
         }
     };
 });

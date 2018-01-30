@@ -1,4 +1,4 @@
-define(['exports'], function (exports) {
+define(['exports', './ace-editor'], function (exports, _aceEditor) {
 
     'use strict';
 
@@ -7,7 +7,7 @@ define(['exports'], function (exports) {
     });
     exports.configure = configure;
 
-    function configure(config) {
-        config.aurelia.use.globalResources('./ace-editor');
+    function configure(aurelia, callback) {
+        aurelia.globalResources('./ace-editor');
     }
 });
